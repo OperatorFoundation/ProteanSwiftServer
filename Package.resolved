@@ -1,0 +1,97 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Cryptor",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueCryptor.git",
+        "state": {
+          "branch": null,
+          "revision": "a960efc2759c8816b00baed5db7b3d903a402e78",
+          "version": "1.0.14"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "874280173e082cdd7ac6602be235914efe3f4dbc",
+          "version": "0.13.0"
+        }
+      },
+      {
+        "package": "Datable",
+        "repositoryURL": "https://github.com/OperatorFoundation/Datable.git",
+        "state": {
+          "branch": null,
+          "revision": "9e2d1854337363fd50ef6401fa5518a508b3964e",
+          "version": "0.1.2"
+        }
+      },
+      {
+        "package": "Elligator",
+        "repositoryURL": "https://github.com/OperatorFoundation/Elligator.git",
+        "state": {
+          "branch": null,
+          "revision": "ac7ae7f3d5b0296f0628691914a66f3652bd3c70",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "HKDF",
+        "repositoryURL": "https://github.com/OperatorFoundation/HKDF.git",
+        "state": {
+          "branch": null,
+          "revision": "b0ebaa71d823317d8fedf4108b7e89500eb578c1",
+          "version": "3.0.2"
+        }
+      },
+      {
+        "package": "ProteanSwift",
+        "repositoryURL": "https://github.com/OperatorFoundation/ProteanSwift",
+        "state": {
+          "branch": null,
+          "revision": "c8e721f631fe17c409ce038866ff3f14fe0d40c7",
+          "version": "0.0.6"
+        }
+      },
+      {
+        "package": "Shapeshifter-Swift-Transports",
+        "repositoryURL": "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports.git",
+        "state": {
+          "branch": null,
+          "revision": "a9d20db91b771fa895b95daf8eabb44977e1a9ae",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "Sodium",
+        "repositoryURL": "https://github.com/OperatorFoundation/swift-sodium",
+        "state": {
+          "branch": null,
+          "revision": "c256ac3a11489d8f81b3915649f83f4d1a3252a3",
+          "version": "0.7.1"
+        }
+      },
+      {
+        "package": "SwiftQueue",
+        "repositoryURL": "https://github.com/OperatorFoundation/SwiftQueue.git",
+        "state": {
+          "branch": null,
+          "revision": "0e5979acbb104516a427bb2bb09debc50ca100b4",
+          "version": "0.0.3"
+        }
+      },
+      {
+        "package": "Transport",
+        "repositoryURL": "https://github.com/OperatorFoundation/Transport.git",
+        "state": {
+          "branch": null,
+          "revision": "73d252ccabc7f9a3b7855225f8bf33a3eb762dca",
+          "version": "0.0.21"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
