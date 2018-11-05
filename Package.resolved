@@ -2,12 +2,21 @@
   "object": {
     "pins": [
       {
+        "package": "Blake2",
+        "repositoryURL": "https://github.com/OperatorFoundation/Blake2.git",
+        "state": {
+          "branch": null,
+          "revision": "3da646eeb5b0c55472b9951a2f7b33f23c17e8c1",
+          "version": "1.0.1"
+        }
+      },
+      {
         "package": "Cryptor",
         "repositoryURL": "https://github.com/IBM-Swift/BlueCryptor.git",
         "state": {
           "branch": null,
-          "revision": "a960efc2759c8816b00baed5db7b3d903a402e78",
-          "version": "1.0.14"
+          "revision": "2bf9fd19e21cae84c8050623437562da083c501a",
+          "version": "1.0.16"
         }
       },
       {
@@ -24,8 +33,8 @@
         "repositoryURL": "https://github.com/OperatorFoundation/Datable.git",
         "state": {
           "branch": null,
-          "revision": "9e2d1854337363fd50ef6401fa5518a508b3964e",
-          "version": "0.1.2"
+          "revision": "cc91e8b71dbbe125a19090c26f4e8c21b6d0dcb4",
+          "version": "1.0.5"
         }
       },
       {
@@ -47,12 +56,30 @@
         }
       },
       {
-        "package": "ProteanSwift",
-        "repositoryURL": "https://github.com/OperatorFoundation/ProteanSwift",
+        "package": "HKDFKit",
+        "repositoryURL": "https://github.com/OperatorFoundation/HKDFKit.git",
         "state": {
           "branch": null,
-          "revision": "c8e721f631fe17c409ce038866ff3f14fe0d40c7",
-          "version": "0.0.6"
+          "revision": "06fd94975c430db02657a80494ef233395a0ef98",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "INI",
+        "repositoryURL": "https://github.com/Bouke/INI",
+        "state": {
+          "branch": null,
+          "revision": "60b7887c6f4051e5cb76b5faa0a7d6db510ddcb0",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "ProteanSwift",
+        "repositoryURL": "https://github.com/OperatorFoundation/ProteanSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "05d968315bbcfee164caf27782b204df6c012eb1",
+          "version": "1.0.1"
         }
       },
       {
@@ -60,8 +87,8 @@
         "repositoryURL": "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports.git",
         "state": {
           "branch": null,
-          "revision": "a9d20db91b771fa895b95daf8eabb44977e1a9ae",
-          "version": "0.2.0"
+          "revision": "dae5a8d036d78a2e89a901ca7aab2d9cf8edd570",
+          "version": "0.2.1"
         }
       },
       {
@@ -69,8 +96,8 @@
         "repositoryURL": "https://github.com/OperatorFoundation/swift-sodium",
         "state": {
           "branch": null,
-          "revision": "c256ac3a11489d8f81b3915649f83f4d1a3252a3",
-          "version": "0.7.1"
+          "revision": "bf86f64a4f28a75f6683078540f24727fad1b12c",
+          "version": "0.8.2"
         }
       },
       {
@@ -87,8 +114,17 @@
         "repositoryURL": "https://github.com/OperatorFoundation/Transport.git",
         "state": {
           "branch": null,
-          "revision": "73d252ccabc7f9a3b7855225f8bf33a3eb762dca",
-          "version": "0.0.21"
+          "revision": "50f77398e9914d9d53260eeea5f3c14aa39e2b4a",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "WireGuard",
+        "repositoryURL": "https://github.com/OperatorFoundation/WireGuard.git",
+        "state": {
+          "branch": null,
+          "revision": "974e6b1a041978f1b997d10cd876992e9f632ce2",
+          "version": "0.0.5"
         }
       }
     ]

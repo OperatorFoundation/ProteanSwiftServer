@@ -13,9 +13,11 @@ import ProteanSwift
 
 public class ProteanListener: Listener
 {
-    public var debugDescription: String = "[UDPListener]"
+    public var newTransportConnectionHandler: ((_ connection: Connection) -> Void)?
     
-    public var newConnectionHandler: ((NWConnection) -> Void)?
+     public var newConnectionHandler: ((Connection) -> Void)?
+    
+    public var debugDescription: String = "[UDPListener]"
     
     public var parameters: NWParameters
     
@@ -48,18 +50,12 @@ public class ProteanListener: Listener
         }
     }
     
-    func proteanify(connection: Connection) -> ProteanConnection?
-    {
-        // Protean Transform
-        let proteanTransformer = Protean(config: self.proteanConfig)
-        return ProteanConnection(connection: connection, config: self.proteanConfig, using: .udp)
-    }
-    
+    //MARK: Transport API Listener Protocol
     public func start(queue: DispatchQueue)
     {
         // Start the listener
         listener.stateUpdateHandler = stateUpdateHandler
-        listener.newConnectionHandler = newConnectionHandler
+        listener.newTransportConnectionHandler = proteanListenerNewConnectionHandler
         listener.start(queue: queue)
     }
     
@@ -72,6 +68,27 @@ public class ProteanListener: Listener
             stateUpdate(NWListener.State.cancelled)
         }
     }
+    
+    //MARK: Protean
+    
+    func proteanify(connection: Connection) -> ProteanConnection?
+    {
+        return ProteanConnection(connection: connection, config: self.proteanConfig, using: .udp)
+    }
+    
+    func proteanListenerNewConnectionHandler(newConnection: Connection)
+    {
+        guard let proteanConnection = proteanify(connection: newConnection)
+        else
+        {
+            print("Unable to convert new connection to a Protean connection.")
+            return
+        }
+        
+        self.newTransportConnectionHandler?(proteanConnection)
+        //self.newConnectionHandler(proteanConnection)
+    }
+    
 }
 
 enum ListenerError: Error

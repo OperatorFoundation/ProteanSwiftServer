@@ -10,7 +10,7 @@ let routingController = RoutingController()
 lock = DispatchGroup.init()
 
 lock.enter()
-routingController.startListening(portString: portString)
+routingController.startListening(onPort: portString, proteanEnabled: true)
 lock.wait()
 
 
