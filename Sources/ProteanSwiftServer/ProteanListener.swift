@@ -15,7 +15,7 @@ public class ProteanListener: Listener
 {
     public var newTransportConnectionHandler: ((_ connection: Connection) -> Void)?
     
-     public var newConnectionHandler: ((Connection) -> Void)?
+    public var newConnectionHandler: ((Connection) -> Void)?
     
     public var debugDescription: String = "[UDPListener]"
     
@@ -86,7 +86,6 @@ public class ProteanListener: Listener
         }
         
         self.newTransportConnectionHandler?(proteanConnection)
-        //self.newConnectionHandler(proteanConnection)
     }
     
 }

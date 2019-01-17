@@ -158,9 +158,9 @@ public class RoutingController: NSObject
             case .ready:
                 print("\nListening...\n")
             case .failed(let error):
-                print("Listener failed with error: \(error)")
+                print("\nListener failed with error: \(error)\n")
             default:
-                print("Received unexpected state: \(newState)")
+                print("\nReceived unexpected state: \(newState)\n")
                 break
         }
     }

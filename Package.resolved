@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/IBM-Swift/BlueCryptor.git",
         "state": {
           "branch": null,
-          "revision": "2bf9fd19e21cae84c8050623437562da083c501a",
-          "version": "1.0.16"
+          "revision": "25186dc1a53f3eb6d900853f659dff8b9af523aa",
+          "version": "1.0.23"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
         "state": {
           "branch": null,
-          "revision": "874280173e082cdd7ac6602be235914efe3f4dbc",
-          "version": "0.13.0"
+          "revision": "c5ee516c9616ec7dc2a000007ddb8bf5d9543c74",
+          "version": "0.13.1"
         }
       },
       {
@@ -44,6 +44,15 @@
           "branch": null,
           "revision": "ac7ae7f3d5b0296f0628691914a66f3652bd3c70",
           "version": "0.1.0"
+        }
+      },
+      {
+        "package": "Flower",
+        "repositoryURL": "https://github.com/OperatorFoundation/Flower.git",
+        "state": {
+          "branch": null,
+          "revision": "cf084096cb53e58946af1bc3204bdde79e2f03ef",
+          "version": "0.0.4"
         }
       },
       {
@@ -83,12 +92,21 @@
         }
       },
       {
+        "package": "ReplicantSwift",
+        "repositoryURL": "https://github.com/OperatorFoundation/ReplicantSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "dccd274ccd0a90fc707794b101bf05a2b8040aff",
+          "version": "0.0.15"
+        }
+      },
+      {
         "package": "Shapeshifter-Swift-Transports",
         "repositoryURL": "https://github.com/OperatorFoundation/Shapeshifter-Swift-Transports.git",
         "state": {
           "branch": null,
-          "revision": "dae5a8d036d78a2e89a901ca7aab2d9cf8edd570",
-          "version": "0.2.1"
+          "revision": "60cf1227128c0f156b9bd5f6c171bfb822a994d7",
+          "version": "0.3.1"
         }
       },
       {
